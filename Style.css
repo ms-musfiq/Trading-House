@@ -1,5 +1,50 @@
 .custom-bgcolor li:hover{
-    background-color: green;
     color: white;
     border-radius: 5px;
 }
+.custom-color{
+    font-family: 'Oleo Script', cursive;
+    color: rgb(26, 255, 19);
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+    color: greenyellow !important;
+}
+.active{
+    color: greenyellow !important;
+}
+/* ================================================================
+animaion area
+================================================================= */
+.bg-custom{
+    animation:bg-custom 10s linear infinite ;
+}
+
+@keyframes bg-custom{
+    0%{
+        background-color: rgb(21, 97, 97);
+    }
+    20%{
+        background-color: rgb(212, 120, 7);
+    }
+    40%{
+        background-color: blue;
+    }
+    60%{
+        background-color: blueviolet;
+    }
+    80%{
+        background-color: brown;
+    }
+    100%{
+        background-color: tomato;
+    }
+}
+/* ================================================================
+animaion area
+================================================================= */
