@@ -1,3 +1,7 @@
+body{
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Roboto', sans-serif;
+}
 .custom-bgcolor li:hover{
     color: white;
     border-radius: 5px;
@@ -46,5 +50,34 @@ animaion area
     }
 }
 /* ================================================================
-animaion area
+body area
 ================================================================= */
+.broker-font{
+    font-family: 'Libre Bodoni', serif;
+    font-size: 35px;
+}
+.broker-desine{
+    color: brown;
+    text-decoration: underline;
+    animation:broker-desine 10s linear infinite ;
+}
+@keyframes broker-desine{
+    0%{
+        color: rgb(26, 255, 19),;
+    }
+    20%{
+        color: rgb(212, 120, 7);
+    }
+    40%{
+        color: blue;
+    }
+    60%{
+        color: blueviolet;
+    }
+    80%{
+        color: greenyellow;
+    }
+    100%{
+        color: tomato;
+    }
+}
