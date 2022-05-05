@@ -56,28 +56,41 @@ body area
     font-family: 'Libre Bodoni', serif;
     font-size: 35px;
 }
-.broker-desine{
+.broker-desine::before{
     color: brown;
     text-decoration: underline;
+    content:'';    
     animation:broker-desine 10s linear infinite ;
+    display: inline-block;
 }
 @keyframes broker-desine{
     0%{
         color: rgb(26, 255, 19),;
+        content:'Broker !';
     }
     20%{
         color: rgb(212, 120, 7);
+        content:'Broker ?';
     }
     40%{
         color: blue;
+        content:'Broker !';
     }
     60%{
         color: blueviolet;
+        content:'Broker ?';
     }
     80%{
         color: greenyellow;
+        content:'Broker !';
     }
     100%{
         color: tomato;
+        content:'Broker ?';
     }
+}
+.btn-color:hover{
+    color: white !important;
+    background-color: blue !important;
+    transition: .3s;
 }
